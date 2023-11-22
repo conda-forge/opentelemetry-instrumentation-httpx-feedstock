@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-httpx" %}
-{% set version = "0.41b0" %}
+{% set version = "0.42b0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_httpx-{{ version }}.tar.gz
-  sha256: 96ebc54f3f41bfcd2fc043349c8cee4b11737602512383d437e24c39a1e4adff
+  sha256: e6e0cdf9d2da9f230e16dc8832583270a682abaf373de54307fa773e04350fa8
 
 build:
   noarch: python
@@ -22,8 +22,8 @@ requirements:
   run:
     - python >=3.7
     - opentelemetry-api ~=1.12
-    - opentelemetry-instrumentation ==0.41b0
-    - opentelemetry-semantic-conventions ==0.41b0
+    - opentelemetry-instrumentation ==0.42b0
+    - opentelemetry-semantic-conventions ==0.42b0
     # - opentelemetry-test-utils ==0.37b0
     # - opentelemetry-sdk ~=1.12
     # - opentelemetry-instrumentation-httpx 
@@ -41,6 +41,10 @@ requirements:
     # - opentelemetry-instrumentation-httpx 
     # - httpx >=0.18.0
     # - opentelemetry-test-utils ==0.41b0
+    # - opentelemetry-sdk ~=1.12
+    # - opentelemetry-instrumentation-httpx 
+    # - httpx >=0.18.0
+    # - opentelemetry-test-utils ==0.42b0
     # - opentelemetry-sdk ~=1.12
     # - opentelemetry-instrumentation-httpx 
     # - httpx >=0.18.0
