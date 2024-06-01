@@ -30,7 +30,6 @@ test:
   imports:
     - opentelemetry
     - opentelemetry.instrumentation
-    - opentelemetry.instrumentation.httpx
   commands:
     - pip check
   requires:
