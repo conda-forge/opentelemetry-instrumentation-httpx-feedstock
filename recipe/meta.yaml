@@ -50,4 +50,3 @@ extra:
     - conda-forge/opentelemetry-instrumentation
     - conda-forge/opentelemetry-semantic-conventions
     - conda-forge/opentelemetry-util-http
-
